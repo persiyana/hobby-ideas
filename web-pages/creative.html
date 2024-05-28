@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Creative</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../navAndFooterStyle.css">
+    <link rel="icon" href="../logo.png">
+    <script src="../script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="fullLogoDiv">
+            <a id="logocontainer" href="index.html">
+                <div class="logoDiv">
+                    <img id="logoimg" src="../logo.png" alt="logo">
+                </div>
+                <div class="logoDiv">
+                    <h3 id="logoname">HobbyIdeas</h3>
+                </div>
+            </a>
+        </div>
+        <div id="menuDiv">
+            <ul id="nav-list">
+                <li>
+                    <a class="main-nav" href="index.html">Начало</a>
+                </li>
+                <li>
+                    <a class="main-nav" href="aboutus.html">За нас</a>
+                </li>
+                <li onclick="hideOrShow()">
+                    <a class="main-nav" id="catNav">Категории</a>
+                    <ul id="catList" class="list">
+                        <li class="list-item"><a href="athome.html">Домашни</a></li>
+                        <li class="list-item"><a href="collecting.html">Колекционерски</a></li>
+                        <li class="list-item"><a href="creative.html">Креативни</a></li>
+                        <li class="list-item"><a href="diy.html">Изработка</a></li>
+                        <li class="list-item"><a href="enrichment.html">Обогатяващи</a></li>
+                        <li class="list-item"><a href="outdoors.html">На открито</a></li>
+                        <li class="list-item"><a href="social.html">Социални</a></li>
+                        <li class="list-item"><a href="sports.html">Спорт</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="row">
+            <div class="col-2">
+                <div class="container mt-3" id="items-container">
+                    <div class="d-flex flex-column mb-3" id="items">
+                        <div class="p-2" onClick="parent.location='athome.html'">Домашни</div>
+                        <div class="p-2" onClick="parent.location='collecting.html'">Колекционерски</div>
+                        <div class="p-2" id="currentCategory2" onClick="parent.location='creative.html'">Креативни</div>
+                        <div class="p-2" onClick="parent.location='diy.html'">Изработка</div>
+                        <div class="p-2" onClick="parent.location='enrichment.html'">Обогатяващи</div>
+                        <div class="p-2" onClick="parent.location='outdoors.html'">На открито</div>
+                        <div class="p-2" onClick="parent.location='social.html'">Социални</div>
+                        <div class="p-2" onClick="parent.location='sports.html'">Спорт</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-10">
+            <div class="container mt-3">
+                <h3 id="categoryNames">Креативни</h3>
+            </div>
+            <div class="container mt-3">
+                <p>Хобита, свързани със създаването на различни видове изкуство.<br>
+В днешно време, когато всичко ни се предоставя наготово, е важно да упражняваме креативността си от време на време. Мисленето по нестандартни начини помага с умственото развитие и предотвратява множество психични заболявания.</p>
+            </div>
+            <div class="row">
+                <div class="column" onclick="location.href='#popup1';">
+                    <img src="../images/creative/painting/2.jpg" alt="painting" style="width:100%">
+                    <h2>Рисуване</h2>
+                </div>
+                <div class="column" onclick="location.href='#popup2';">
+                    <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/09/36/92/ec.jpg" alt="pottery" style="width:100%">
+                    <h2>Грънчарство</h2>
+                </div>
+                <div class="column" onclick="location.href='#popup3';">
+                    <img src="../images/creative/scrapbooking/1.jpg" alt="scrapbooking" style="width:100%">
+                    <h2>Скрапбукинг</h2>
+                </div>
+            </div>
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Рисуване</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/creative/painting/1.jpg" alt="painting">
+                                        <img src="../images/creative/painting/3.jpg" alt="painting">
+                                        <img src="https://www.c-and-a.com/shop-img/content/2021/zeichnen-skizzenbuch.jpg" alt="painting">
+                                        <img src="https://wp.en.aleteia.org/wp-content/uploads/sites/2/2020/03/web-hands-painting-drawing-elderly-senior-shutterstock_696270118-toa55.jpg?w=620&h=348&crop=1" alt="painting">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Всеки някога е бил привлечен към изобразяването на въображението си художествено платно. Малко наистина осъществяват
+                                потенциала си, но ако имате интерес да развиете уменията си, това е едно от най-достъпните изкуства. Единственото, което
+                                ви трябва е време и материали, било то дигитални или класически.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="popup2" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Грънчарство</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/creative/pottery/2.jpg" alt="pottery">
+                                        <img src="../images/creative/pottery/3.jpg" alt="pottery">
+                                        <img src="https://thepotterywheel.com/wp-content/uploads/2020/06/how-to-start-a-pottery-hobby-7.jpg" alt="pottery">
+                                        <img src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/nvrat18udr1uz72hofm2/Ceramic%20and%20Pottery%20Workshop%20in%20Orchard%20Gateway%20or%20JCube.jpg" alt="pottery">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Грънчарството изисква средства като праг за влизане, но в замяна получавате използваем продукт, който сте създали със
+                                собствените си длани. Това е хоби, в което можете да задълбаете, колкото решите: от обикновени битови прибори до сложни
+                                и абстрактни дизайни.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="popup3" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Скрапбукинг</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/creative/scrapbooking/2.jpg" alt="scrapbooking">
+                                        <img src="../images/creative/scrapbooking/3.jpg" alt="scrapbooking">
+                                        <img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/fc325c42-5497-4dc0-ac6e-187e5331cd1a.__CR0,0,970,600_PT0_SX970_V1___.jpg" alt="scrapbooking">
+                                        <img src="https://heymishka.com/wp-content/uploads/2022/01/creative-journal-inspiration-diy-project-ideas-hey-mishka-blog-2-scaled.jpg" alt="scrapbooking">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Scrapbooking-ът представлява аранжирането на снимки, писма и други сувенири със сантиментална стойност под формата на
+                                дневник или книга. Това е перфектен начин да увековечите спомените си във физически вид. Може да служи и като интересен
+                                предмет на разговор.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        </div>
+    </main>
+    <footer class="footer">
+        <ul class="icons">
+            <li><a href="https://www.viber.com/en/?utm_source=invite&utm_Medium=share&utm_campaign=msgtest" target="_blank">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+        <li><a href="https://www.facebook.com" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+        <li><a href="https://www.instagram.com" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="aboutus.html">За нас</a></li>
+        </ul>
+        <div class="footer-copyright">
+            <p>Made by Persiyana</p>
+        </div>
+    </footer>
+</body>
+
+</html>

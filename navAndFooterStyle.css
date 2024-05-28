@@ -1,0 +1,178 @@
+.footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#currentTab {
+    background-color: #19654c;
+    color: #96cc75;
+}
+
+#logocontainer {
+    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 1em;
+    position: relative;
+    display: table;
+}
+
+#logoname {
+    font-family: 'Lily Script One', cursive;
+    color: #19654c;
+    font-weight: 500;
+    display: inline-block;
+    
+}
+.logoDiv{
+    display: table-cell;
+    vertical-align: middle;
+}
+.fullLogoDiv{
+    display: inline-block;
+}
+#logoimg {
+    max-width: 2em;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    z-index: 1;
+    background: linear-gradient(to bottom, #00000062, transparent);
+    transition: background-color 0.4s ease-out;
+    text-decoration: none;
+}
+
+nav.scroll {
+    background-color: #96cc75;
+}
+
+nav a {
+    color: #19654c;
+    font-size: 0.9em;
+}
+
+nav div ul li,
+nav div {
+    display: inline-block;
+}
+
+nav #menuDiv {
+    position: absolute;
+    right: 0px;
+    margin-right: 1em;
+}
+
+#nav-list li a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.main-nav {
+    background-color: #96cc75;
+    display: block;
+    padding: .4em;
+    border-radius: 1.5em;
+    width: 10em;
+    text-align: center;
+    border: 0.05em solid #275D07;
+}
+
+.main-nav:hover {
+    background-color: #19654c;
+    color: #96cc75;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.list-item a {
+    display: block;
+    padding: 0.25em;
+    width: 100%;
+}
+
+.list-item {
+    width: 100%;
+}
+
+#catList {
+    font-size: 0.9em;
+    display: none;
+    padding-bottom: 0.9em;
+    border-radius: 0em 0em 1.1em 1.1em;
+    background-color: #96cc75;
+    width: 10em;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    border: 0.05em solid #19654c;
+}
+
+.list-item:hover a {
+    background-color: #19654c;
+    color: #96cc75;
+}
+#menuNav {
+    display: none;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.788);
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 0.5em;
+    margin-top: auto;
+    
+}
+
+footer li {
+    list-style: none;
+    margin: 0.5em;
+    display: inline-block;
+}
+
+.icons a {
+    background: #19654c;
+    color: rgba(0, 0, 0, 0.788);
+    padding: 0.5em;
+    font-size: 1.2em;
+    border-radius: 100%;
+    display: flex;
+
+}
+.icons ion-icon{
+    color:#e3e3e3;
+}
+
+.icons a:hover {
+    color: #bfe6a8;
+    transition: 0.5s;
+}
+
+footer ul a {
+    color: #bfe6a8;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #19654c;
+    transition: 0.5s;
+}
+
+.footer-copyright {
+    background-color: #19654c;
+    color: #bfe6a8;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    text-transform: capitalize;
+}
+
+.footer-copyright p {
+    bottom: 0;
+    color: #e3e3e3;
+}

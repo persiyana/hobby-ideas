@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Collecting</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../navAndFooterStyle.css">
+    <link rel="icon" href="../logo.png">
+    <script src="../script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="fullLogoDiv">
+            <a id="logocontainer" href="index.html">
+                <div class="logoDiv">
+                    <img id="logoimg" src="../logo.png" alt="logo">
+                </div>
+                <div class="logoDiv">
+                    <h3 id="logoname">HobbyIdeas</h3>
+                </div>
+            </a>
+        </div>
+        <div id="menuDiv">
+            <ul id="nav-list">
+                <li>
+                    <a class="main-nav" href="index.html">Начало</a>
+                </li>
+                <li>
+                    <a class="main-nav" href="aboutus.html">За нас</a>
+                </li>
+                <li onclick="hideOrShow()">
+                    <a class="main-nav" id="catNav">Категории</a>
+                    <ul id="catList" class="list">
+                        <li class="list-item"><a href="athome.html">Домашни</a></li>
+                        <li class="list-item"><a href="collecting.html">Колекционерски</a></li>
+                        <li class="list-item"><a href="creative.html">Креативни</a></li>
+                        <li class="list-item"><a href="diy.html">Изработка</a></li>
+                        <li class="list-item"><a href="enrichment.html">Обогатяващи</a></li>
+                        <li class="list-item"><a href="outdoors.html">На открито</a></li>
+                        <li class="list-item"><a href="social.html">Социални</a></li>
+                        <li class="list-item"><a href="sports.html">Спорт</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="row">
+            <div class="col-2">
+                <div class="container mt-3" id="items-container">
+                    <div class="d-flex flex-column mb-3" id="items">
+                        <div class="p-2" onClick="parent.location='athome.html'">Домашни</div>
+                        <div class="p-2" id="currentCategory2" onClick="parent.location='collecting.html'">Колекционерски</div>
+                        <div class="p-2" onClick="parent.location='creative.html'">Креативни</div>
+                        <div class="p-2" onClick="parent.location='diy.html'">Изработка</div>
+                        <div class="p-2" onClick="parent.location='enrichment.html'">Обогатяващи</div>
+                        <div class="p-2" onClick="parent.location='outdoors.html'">На открито</div>
+                        <div class="p-2" onClick="parent.location='social.html'">Социални</div>
+                        <div class="p-2" onClick="parent.location='sports.html'">Спорт</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-10">
+            <div class="container mt-3">
+                <h3 id="categoryNames">Колекционерски</h3>
+            </div>
+            <div class="container mt-3">
+                <p>Представляват събирането на специфични, еднородни предмети.<br>
+Колекционерството не значи просто да дадеш пари за скъпа чаша. Неслучайно това занимание е толкова известно. Колекцията показва отдаденост, а процесът на създаването и може да ви разведе из света в търсенето на неуловими реликви.</p>
+            </div>
+            <div class="row">
+                <div class="column" onclick="location.href='#popup1';">
+                    <img src="../images/collecting/antiques/2.jpg" alt="antiques" style="width:100%">
+                    <h2>Aнтики</h2>
+                </div>
+                <div class="column" onclick="location.href='#popup2';">
+                    <img src="../images/collecting/stamps/3.jpg" alt="stamps" style="width:100%">
+                    <h2>Mарки</h2>
+                </div>
+                <div class="column" onclick="location.href='#popup3';">
+                    <img src="../images/collecting/comics/1.jpg" alt="comics" style="width:100%">
+                    <h2>Kомикси</h2>
+                </div>
+            </div>
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Колекциониране на антики</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/collecting/antiques/1.jpg" alt="antiques">
+                                        <img src="../images/collecting/antiques/3.jpg" alt="antiques">
+                                        <img src="https://news.vanderbilt.edu/manage/wp-content/uploads/Murray-Hudson.jpg" alt="antiques">
+                                        <img src="https://cf.ltkcdn.net/antiques/images/orig/265826-1600x1030-most-fun-interesting-things-collect.jpg" alt="antiques">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Колекционирането на антики е едно от по-скъпите хобита, с които можете да се захванете, но за ентусиастите на тема
+                                „история“ няма по-добро. Събирането на древни реликви или модерни съкровища може да ви отведе до непознати исторически
+                                извори и да ви срещне с хора също толкова любознателни като вас.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="popup2" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Колекциониране на марки</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/collecting/stamps/1.jpg" alt="stamps">
+                                        <img src="../images/collecting/stamps/2.jpg" alt="stamps">
+                                        <img src="https://postalheritage.files.wordpress.com/2013/06/0584-photo2.jpg" alt="stamps">
+                                        <img src="https://www.linns.com/images/default-source/news/stock-book-filled-with-stamps.tmb-slide-1900.jpg?sfvrsn=4a512e63_0" alt="stamps">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Колекционирането на марки е популярно от 19-ти век и развитието на пощенските услуги, както по света, така и у нас.
+                                Много вероятно е и вашите родители да имат забравена колекция от стари марки в тавана или мазето, като можете да
+                                използвате шанса да започнете да я допълвате с модерни такива.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="popup3" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Колекциониране на комикси</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/collecting/comics/2.jpg" alt="comics">
+                                        <img src="../images/collecting/comics/3.jpg" alt="comics">
+                                        <img src="https://www.artinsurancenow.com/blog/wp-content/uploads/2014/12/comics-Image.jpg" alt="comics">
+                                        <img src="https://static.onecms.io/wp-content/uploads/sites/6/2014/10/street-3-06_612x380_1.jpg" alt="comics">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Знаехте ли, че най-скъпият комикс някога е „Amazing Fantasy #15“-първата поява на Спайдър-мен.
+                                Комиксите имат монументално влияние върху съвременния художествен свят, пряко или не. Ако смятате, че съвременните
+                                адаптации на тези истории за свръхестественото са ви повлияли значително, можете да изразите отношението си като
+                                започнете нова колекция от графични романи.
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        </div>
+    </main>
+    <footer class="footer">
+        <ul class="icons">
+            <li><a href="https://www.viber.com/en/?utm_source=invite&utm_Medium=share&utm_campaign=msgtest" target="_blank">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+        <li><a href="https://www.facebook.com" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+        <li><a href="https://www.instagram.com" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="aboutus.html">За нас</a></li>
+        </ul>
+        <div class="footer-copyright">
+            <p>Made by Persiyana</p>
+        </div>
+    </footer>
+</body>
+
+</html>

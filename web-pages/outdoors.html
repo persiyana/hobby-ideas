@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Outdoors</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../navAndFooterStyle.css">
+    <link rel="icon" href="../logo.png">
+    <script src="../script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="fullLogoDiv">
+            <a id="logocontainer" href="index.html">
+                <div class="logoDiv">
+                    <img id="logoimg" src="../logo.png" alt="logo">
+                </div>
+                <div class="logoDiv">
+                    <h3 id="logoname">HobbyIdeas</h3>
+                </div>
+            </a>
+        </div>
+        <div id="menuDiv">
+            <ul id="nav-list">
+                <li>
+                    <a class="main-nav" href="index.html">Начало</a>
+                </li>
+                <li>
+                    <a class="main-nav" href="aboutus.html">За нас</a>
+                </li>
+                <li onclick="hideOrShow()">
+                    <a class="main-nav" id="catNav">Категории</a>
+                    <ul id="catList" class="list">
+                        <li class="list-item"><a href="athome.html">Домашни</a></li>
+                        <li class="list-item"><a href="collecting.html">Колекционерски</a></li>
+                        <li class="list-item"><a href="creative.html">Креативни</a></li>
+                        <li class="list-item"><a href="diy.html">Изработка</a></li>
+                        <li class="list-item"><a href="enrichment.html">Обогатяващи</a></li>
+                        <li class="list-item"><a href="outdoors.html">На открито</a></li>
+                        <li class="list-item"><a href="social.html">Социални</a></li>
+                        <li class="list-item"><a href="sports.html">Спорт</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="row">
+            <div class="col-2">
+                <div class="container mt-3" id="items-container">
+                    <div class="d-flex flex-column mb-3" id="items">
+                        <div class="p-2" onClick="parent.location='athome.html'">Домашни</div>
+                        <div class="p-2" onClick="parent.location='collecting.html'">Колекционерски</div>
+                        <div class="p-2" onClick="parent.location='creative.html'">Креативни</div>
+                        <div class="p-2" onClick="parent.location='diy.html'">Изработка</div>
+                        <div class="p-2" onClick="parent.location='enrichment.html'">Обогатяващи</div>
+                        <div class="p-2" id="currentCategory2" onClick="parent.location='outdoors.html'">На открито</div>
+                        <div class="p-2" onClick="parent.location='social.html'">Социални</div>
+                        <div class="p-2" onClick="parent.location='sports.html'">Спорт</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-10">
+            <div class="container mt-3">
+                <h3 id="categoryNames">На открито</h3>
+            </div>
+            <div class="container mt-3">
+                <p>Дейности, подходящи за сред природата.<br>
+Хобитата, които ни отвеждат извън дома обратно към природата имат способността да ни смирят, показвайки ни корените и реалният мащаб на живота. 
+Въпреки всичко, те крият определен риск, затова практикувайте на собствена отговорност.</p>
+            </div>
+            <div class="row">
+                <div class="column" onclick="location.href='#popup1';">
+                    <img src="../images/outdoors/camping/1.jpg" alt="camping" style="width:100%">
+                    <h2>Къмпингуване</h2>
+                </div>
+                <div class="column" onclick="location.href='#popup2';">
+                    <img src="../images/outdoors/geocaching/2.jpg" alt="geocaching" style="width:100%">
+                    <h2>Геокешинг</h2>
+                </div>
+                <div class="column" onclick="location.href='#popup3';">
+                    <img src="../images/outdoors/birdwatching/1.jpg" alt="birdwatching" style="width:100%">
+                    <h2>Наблюдение на птици</h2>
+                </div>
+            </div>
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Къмпингуване</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/outdoors/camping/3.jpg" alt="camping">
+                                        <img src="../images/outdoors/camping/2.jpg" alt="camping">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tent_camping_along_the_Sulayr_trail_in_La_Taha%2C_Sierra_Nevada_National_Park_%28DSCF5147%29.jpg/1200px-Tent_camping_along_the_Sulayr_trail_in_La_Taha%2C_Sierra_Nevada_National_Park_%28DSCF5147%29.jpg" alt="camping">
+                                        <img src="https://media.cntraveler.com/photos/607313c3d1058698d13c31b5/3:2/w_2454,h_1636,c_limit/FamilyCamping-2021-GettyImages-948512452-2.jpg" alt="camping">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Ако сте изморени от градския шум и навалицата и желаете да се отдалечите от цивилизацията, грабнете палатката или
+                                спалния чувал и отидете на къмпинг. Не забравяйте да вземете някакъв вид комуникационно устройство в случай на беда.
+                                Къмпингуването може също да бъде и групова активност, а ако спането на земята не ви звучи привлекателно, глемпингът
+                                (Glamping: glamour+camping) също е опция, набираща популярност.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="popup2" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Геокешинг</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/outdoors/geocaching/1.jpg" alt="geocaching" >
+                                        <img src="../images/outdoors/geocaching/3.jpg" alt="geocaching" >
+                                        <img src="https://images.immediate.co.uk/production/volatile/sites/22/2020/09/Hunting-for-geocache-GettyImages-182861992-0bab575.jpg" alt="geocaching" >
+                                        <img src="https://traveloregon.com/wp-content/uploads/2014/05/MayOutdoor_slideshow_geocaching.jpg" alt="geocaching" >
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Геокешингът съчетава ориентирането, излета и решаването на пъзели. Целта е да намерите скрития от последния играч
+                                предмет и да го поставите на друга, избрана от вас локация. Информация за координатите на тези кеширани обекти можете да
+                                намерите в една от множеството платформи, занимаващи се с тази активност.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="popup3" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Наблюдение на птици</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/outdoors/birdwatching/2.jpg" alt="birdwatching" >
+                                        <img src="https://idsb.tmgrup.com.tr/2016/04/28/GenelBuyuk/1461788511409_rs.jpg" alt="birdwatching" >
+                                        <img src="https://media.cntraveler.com/photos/60393d70ed1e37b700b6145f/master/pass/F47P11-2.jpg" alt="birdwatching">
+                                        <img src="https://uploads-ssl.webflow.com/623236d8ac23bb57bd352b40/628f3a1928dddf166fe7473a_hummingbird-g1e3511b27_1920.jpg" alt="birdwatching">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Това е релаксираща активност, за която ви трябва само леща и търпение. Може да ви звучи скучно, но от друга страна може
+                                да се нарече и спокойно, а и навиците на тези крилати животни често се оказват забавни, увлекателни и интересни.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        </div>
+    </main>
+    <footer class="footer">
+        <ul class="icons">
+            <li><a href="https://www.viber.com/en/?utm_source=invite&utm_Medium=share&utm_campaign=msgtest" target="_blank">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+        <li><a href="https://www.facebook.com" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+        <li><a href="https://www.instagram.com" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="aboutus.html">За нас</a></li>
+        </ul>
+        <div class="footer-copyright">
+            <p>Made by Persiyana</p>
+        </div>
+    </footer>
+</body>
+
+</html>

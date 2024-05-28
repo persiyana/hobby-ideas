@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>DIY</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../navAndFooterStyle.css">
+    <link rel="icon" href="../logo.png">
+    <script src="../script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="fullLogoDiv">
+            <a id="logocontainer" href="index.html">
+                <div class="logoDiv">
+                    <img id="logoimg" src="../logo.png" alt="logo">
+                </div>
+                <div class="logoDiv">
+                    <h3 id="logoname">HobbyIdeas</h3>
+                </div>
+            </a>
+        </div>
+        <div id="menuDiv">
+            <ul id="nav-list">
+                <li>
+                    <a class="main-nav" href="index.html">Начало</a>
+                </li>
+                <li>
+                    <a class="main-nav" href="aboutus.html">За нас</a>
+                </li>
+                <li onclick="hideOrShow()">
+                    <a class="main-nav" id="catNav">Категории</a>
+                    <ul id="catList" class="list">
+                        <li class="list-item"><a href="athome.html">Домашни</a></li>
+                        <li class="list-item"><a href="collecting.html">Колекционерски</a></li>
+                        <li class="list-item"><a href="creative.html">Креативни</a></li>
+                        <li class="list-item"><a href="diy.html">Изработка</a></li>
+                        <li class="list-item"><a href="enrichment.html">Обогатяващи</a></li>
+                        <li class="list-item"><a href="outdoors.html">На открито</a></li>
+                        <li class="list-item"><a href="social.html">Социални</a></li>
+                        <li class="list-item"><a href="sports.html">Спорт</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="row">
+            <div class="col-2">
+                <div class="container mt-3" id="items-container">
+                    <div class="d-flex flex-column mb-3" id="items">
+                        <div class="p-2" onClick="parent.location='athome.html'">Домашни</div>
+                        <div class="p-2" onClick="parent.location='collecting.html'">Колекционерски</div>
+                        <div class="p-2" onClick="parent.location='creative.html'">Креативни</div>
+                        <div class="p-2" id="currentCategory2" onClick="parent.location='diy.html'">Изработка</div>
+                        <div class="p-2" onClick="parent.location='enrichment.html'">Обогатяващи</div>
+                        <div class="p-2" onClick="parent.location='outdoors.html'">На открито</div>
+                        <div class="p-2" onClick="parent.location='social.html'">Социални</div>
+                        <div class="p-2" onClick="parent.location='sports.html'">Спорт</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-10">
+            <div class="container mt-3">
+                <h3 id="categoryNames">Изработка</h3>
+            </div>
+            <div class="container mt-3">
+                <p>Представлява изработката, модификацията и поправката на предмети и уреди без помощта на експерти.
+Мисленето извън кутията, свързано с DIY (Do-it-yourself) проектите, е важно универсално-приложимо умение, а механичната работа може да служи като вид време за медитация.</p>
+            </div>
+            <div class="row">
+                <div class="column" onclick="location.href='#popup1';">
+                    <img src="../images/diy/lockpicking/1.jpg" alt="lockpicking" style="width:100%">
+                    <h2>Отключване на ключалки</h2>
+                </div>
+                <div class="column" onclick="location.href='#popup2';">
+                    <img src="../images/diy/woodcarving/1.jpg" alt="woodcarving" style="width:100%">
+                    <h2>Дърворезба</h2>
+                </div>
+                <div class="column" onclick="location.href='#popup3';">
+                    <img src="https://www.almanac.com/sites/default/files/images/knots-shutterstock_262221194.jpg" alt="knots" style="width:100%">
+                    <h2>Връзване на възли</h2>
+                </div>
+            </div>
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Отключване на ключалки</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="https://www.gizmodo.com.au/wp-content/uploads/sites/2/2014/11/06/bp1a8daql5zeis7eqdtf.gif" alt="lockpicking">
+                                        <img src="https://i0.wp.com/mackintoshacademy.com/wp-content/uploads/2015/09/maxresdefault-1.jpg" alt="lockpicking">
+                                        <img src="https://img.thelondonlocksmiths.co.uk/wp-content/uploads/2020/02/hands-picking-a-lock.jpg" alt="lockpicking">
+                                        <img src="https://t4.ftcdn.net/jpg/05/01/17/09/360_F_501170948_6XwvPbjxyAgjKD4yuIGWwn72Rz2TtAV3.jpg" alt="lockpicking">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Не свързвайте това умение с грабежи. То може да ви бъде полезно в случай на забравен ключ, евакуация или просто да
+                                впечатлите приятелите си. Свикването с по-трудни и по-трудни ключалки може да бъде забавно и предизвикателно изпитание и
+                                не изисква много ресурси. Само не използвайте ключалката на входната си врата за експериментиране.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="popup2" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Дърворезба</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/diy/woodcarving/1.jpg" alt="woodcarving">
+                                        <img src="../images/diy/woodcarving/1.jpg" alt="woodcarving">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Това е стар занаят, а изделия могат да бъдат намерени из целия свят: Мудиао в Китай, африкански маски и индиански
+                                тотеми. Като начинаещи, можете да започнете с малки предмети и с времето да преминете към по-сложни, обемни и трудоемки
+                                проекти.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="popup3" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Връзване на възли</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/diy/knots/1.jpg" alt="knots">
+                                        <img src="../images/diy/knots/2.jpg" alt="knots">
+                                        <img src="https://www.outsideonline.com/wp-content/uploads/2020/06/04/alpine-7_h.jpg?height=230" alt="knots">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl4jNqc27flcT-Y9oZYvely8Ds6ZTGSLb4rM3a6jgV59T0vjffb3MIivcCoKKC0Z-lqHw&usqp=CAU" alt="knots">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Може да звучи, сякаш би било полезно само за ловци и ентусиасти на тема оцеляване, но изучаването на различни възли може
+                                да бъде успокояващ и медитативен процес, чрез който ще се сдобиете със знания, за които, в случай че ви потрябват, ще
+                                бъдете много благодарни.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        </div>
+    </main>
+    <footer class="footer">
+        <ul class="icons">
+            <li><a href="https://www.viber.com/en/?utm_source=invite&utm_Medium=share&utm_campaign=msgtest" target="_blank">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+        <li><a href="https://www.facebook.com" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+        <li><a href="https://www.instagram.com" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="aboutus.html">За нас</a></li>
+        </ul>
+        <div class="footer-copyright">
+            <p>Made by Persiyana</p>
+        </div>
+    </footer>
+</body>
+
+</html>

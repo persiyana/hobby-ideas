@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sports</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../navAndFooterStyle.css">
+    <link rel="icon" href="../logo.png">
+    <script src="../script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="fullLogoDiv">
+            <a id="logocontainer" href="index.html">
+                <div class="logoDiv">
+                    <img id="logoimg" src="../logo.png" alt="logo">
+                </div>
+                <div class="logoDiv">
+                    <h3 id="logoname">HobbyIdeas</h3>
+                </div>
+            </a>
+        </div>
+        <div id="menuDiv">
+            <ul id="nav-list">
+                <li>
+                    <a class="main-nav" href="index.html">Начало</a>
+                </li>
+                <li>
+                    <a class="main-nav" href="aboutus.html">За нас</a>
+                </li>
+                <li onclick="hideOrShow()">
+                    <a class="main-nav" id="catNav">Категории</a>
+                    <ul id="catList" class="list">
+                        <li class="list-item"><a href="athome.html">Домашни</a></li>
+                        <li class="list-item"><a href="collecting.html">Колекционерски</a></li>
+                        <li class="list-item"><a href="creative.html">Креативни</a></li>
+                        <li class="list-item"><a href="diy.html">Изработка</a></li>
+                        <li class="list-item"><a href="enrichment.html">Обогатяващи</a></li>
+                        <li class="list-item"><a href="outdoors.html">На открито</a></li>
+                        <li class="list-item"><a href="social.html">Социални</a></li>
+                        <li class="list-item"><a href="sports.html">Спорт</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="row">
+            <div class="col-2">
+                <div class="container mt-3" id="items-container">
+                    <div class="d-flex flex-column mb-3" id="items">
+                        <div class="p-2" onClick="parent.location='athome.html'">Домашни</div>
+                        <div class="p-2" onClick="parent.location='collecting.html'">Колекционерски</div>
+                        <div class="p-2" onClick="parent.location='creative.html'">Креативни</div>
+                        <div class="p-2" onClick="parent.location='diy.html'">Изработка</div>
+                        <div class="p-2" onClick="parent.location='enrichment.html'">Обогатяващи</div>
+                        <div class="p-2" onClick="parent.location='outdoors.html'">На открито</div>
+                        <div class="p-2" onClick="parent.location='social.html'">Социални</div>
+                        <div class="p-2" id="currentCategory3" onClick="parent.location='sports.html'">Спорт</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        <div class="col-10">
+            <div class="container mt-3">
+                <h3 id="categoryNames">Спорт</h3>
+            </div>
+            <div class="container mt-3">
+                <p>Включва практикуването както на различни спортове, така и на игри и други занимания, изискващи интензивна физическа активност.
+Тези дейности поддържат физическото здраве, помагат на мисловната дейност и/или успокояват, в зависимост от избраната активност.</p>
+            </div>
+            <div class="row">
+                <div class="column" onclick="location.href='#popup1';">
+                    <img src="https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/jogging.jpg" alt="jogging" style="width:100%">
+                    <h2>Джогинг</h2>
+                </div>
+                <div class="column" onclick="location.href='#popup2';">
+                    <img src="https://pulsefit.bg/uploads/cache/original/public/uploads/media-manager/app-modules-activities-models-activity/9/3512/yoga%20new.jpg" alt="yoga" style="width:100%">
+                    <h2>Йога</h2>
+                </div>
+                <div class="column" onclick="location.href='#popup3';">
+                    <img src="https://img.olympicchannel.com/images/image/private/f_auto/t_s_pog_staticContent_hero_xl_2x/primary/ydk9vatpnihwfquy6zq3" alt="football" style="width:100%">
+                    <h2>Футбол</h2>
+                </div>
+            </div>
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Джогинг</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/sports/jogging/1.jpg" alt="jogging">
+                                        <img src="../images/sports/jogging/2.jpg" alt="jogging">
+                                        <img src="https://cssversicherung.scene7.com/is/image/csskrankenversicherung/frau-joggen-natur-draussen-sport-1326090869:image-21-9?wid=1600&fit=constrain,0&resMode=sharp2&noCache=1667821364590" alt="jogging">
+                                        <img src="https://post.greatist.com/wp-content/uploads/sites/2/2020/02/GRT-male-female-couple-running-jogging-1200x628-facebook-1200x628.jpg" alt="jogging">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Бягането е добър начин да поддържате физическото си здраве, без да се налага да използвате фитнес уреди. Има и клубове
+                                за ентусиасти, където можете да получите насоки и подкрепа. Дейността е сравнително безопасна, стига да изберете
+                                подходящ терен и да не прекалявате според нивото си.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="popup2" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Йога</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/sports/yoga/1.jpg" alt="yoga">
+                                        <img src="../images/sports/yoga/2.jpg" alt="yoga">
+                                        <img src="https://eva.bg/media/cache/article_photo_above_text/media/Zdrave/D4BE.tmp.jpg" alt="yoga">
+                                        <img src="https://img.cms.bweb.bg/media/images/gallery/Nov2016/2111219494.webp" alt="yoga">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Йогата комбинира медитация и разтегателни упражнения. Може да не е толкова интензивна, но тя също има позитивни ефекти
+                                за тялото и мозъка. Малко гъвкавост никога не е излишна, а времето за медитация е критично в забързаното ни ежедневие.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="popup3" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Футбол</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/sports/football/1.jpg" alt="football">
+                                        <img src="../images/sports/football/2.jpg" alt="football">
+                                        <img src="https://img.olympicchannel.com/images/image/private/t_social_share_thumb/f_auto/primary/qjxgsf7pqdmyqzsptxju" alt="football">
+                                        <img src="https://www.bloomberg.com/graphics/2020-coronavirus-european-football/img/2020-coronavirus-european-football-twitter.jpg" alt="football">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Далеч най-популярният спорт в света към момента, футболът е колкото спорт и физическа активност, така и социална и
+                                мисловна дейност. Достъпен е за всеки, без висок праг за влизане, ако търсите нова страст, това е идеалното занимание.
+                                Практикуването му също ще ви позволи да участвате в дискусии върху професионалната игра.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        </div>
+    </main>
+    <footer class="footer">
+        <ul class="icons">
+            <li><a href="https://www.viber.com/en/?utm_source=invite&utm_Medium=share&utm_campaign=msgtest" target="_blank">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+        <li><a href="https://www.facebook.com" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+        <li><a href="https://www.instagram.com" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="aboutus.html">За нас</a></li>
+        </ul>
+        <div class="footer-copyright">
+            <p>Made by Persiyana</p>
+        </div>
+    </footer>
+</body>
+
+</html>

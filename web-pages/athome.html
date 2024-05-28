@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>At Home</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../navAndFooterStyle.css">
+    <link rel="icon" href="../logo.png">
+    <script src="../script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="fullLogoDiv">
+            <a id="logocontainer" href="index.html">
+                <div class="logoDiv">
+                    <img id="logoimg" src="../logo.png" alt="logo">
+                </div>
+                <div class="logoDiv">
+                    <h3 id="logoname">HobbyIdeas</h3>
+                </div>
+            </a>
+        </div>
+        <div id="menuDiv">
+            <ul id="nav-list">
+                <li>
+                    <a class="main-nav" href="index.html">Начало</a>
+                </li>
+                <li>
+                    <a class="main-nav" href="aboutus.html">За нас</a>
+                </li>
+                <li onclick="hideOrShow()">
+                    <a class="main-nav" id="catNav">Категории</a>
+                    <ul id="catList" class="list">
+                        <li class="list-item"><a href="athome.html">Домашни</a></li>
+                        <li class="list-item"><a href="collecting.html">Колекционерски</a></li>
+                        <li class="list-item"><a href="creative.html">Креативни</a></li>
+                        <li class="list-item"><a href="diy.html">Изработка</a></li>
+                        <li class="list-item"><a href="enrichment.html">Обогатяващи</a></li>
+                        <li class="list-item"><a href="outdoors.html">На открито</a></li>
+                        <li class="list-item"><a href="social.html">Социални</a></li>
+                        <li class="list-item"><a href="sports.html">Спорт</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="row">
+            <div class="col-2">
+                <div class="container mt-3" id="items-container">
+                    <div class="d-flex flex-column mb-3" id="items">
+                        <div class="p-2" id="currentCategory" onClick="parent.location='athome.html'">Домашни</div>
+                        <div class="p-2" onClick="parent.location='collecting.html'">Колекционерски</div>
+                        <div class="p-2" onClick="parent.location='creative.html'">Креативни</div>
+                        <div class="p-2" onClick="parent.location='diy.html'">Изработка</div>
+                        <div class="p-2" onClick="parent.location='enrichment.html'">Обогатяващи</div>
+                        <div class="p-2" onClick="parent.location='outdoors.html'">На открито</div>
+                        <div class="p-2" onClick="parent.location='social.html'">Социални</div>
+                        <div class="p-2" onClick="parent.location='sports.html'">Спорт</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        <div class="col-10">
+            <div class="container mt-3">
+                <h3 id="categoryNames">Домашни</h3>
+            </div>
+            <div class="container mt-3">
+                <p>Дейности, които могат да се извършват от уюта на дома.<br>
+                Ако сте твърде заети да се захващате с планирането и осъществяването на поход например, не можете да си позволите да
+                излизате или просто искате да се чувствате комфортно в дома си, домашните хобита винаги са на ръка разстояние.</p>
+            </div>
+            <div class="row">
+                <div class="column" onclick="location.href='#popup1';">
+                    <img src="../images/athome/cooking/1.jpg" alt="cooking" style="width:100%">
+                    <h2>Готвене</h2>
+                </div>
+                <div class="column" onclick="location.href='#popup2';">
+                    <img src="../images/athome/knitting/1.jpg" alt="knitting" style="width:100%">
+                    <h2>Плетене</h2>
+                </div>
+                <div class="column" onclick="location.href='#popup3';">
+                    <img src="../images/athome/instruments/1.jpg" alt="instruments" style="width:100%">
+                    <h2>Свирене на инструмент</h2>
+                </div>
+            </div>
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Готвене</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/athome/cooking/2.jpg" alt="cooking">
+                                        <img src="../images/athome/cooking/3.jpg" alt="cooking">
+                                        <img src="https://domf5oio6qrcr.cloudfront.net/medialibrary/11537/4a78f148-d427-4209-8173-f33d04c44106.jpg"
+                                            alt="cooking">
+                                        <img src="https://www.unlockfood.ca/getmedia/79cc0763-3b98-4333-897a-d41d5ec5fbbc/mom-and-daughter-cooking.aspx?width=830&height=553"
+                                            alt="cooking">
+                                    </div>
+            
+                                </div>
+                                <br>
+            
+                            </div>
+                            <div class="content">
+                                Готвенето за вас или близките ви може да бъде завладяващо, ако се стремите към конкретни резултати,
+                                или успокояващо, ако
+                                го правите самоцелно. И в двата случая завършвате с вкусно ястие, на което само можете да се
+                                наслаждавате, знаейки, че
+                                сте го приготвили със собствените си ръце.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="popup2" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Плетене</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/athome/knitting/2.jpg" alt="knitting">
+                                        <img src="../images/athome/knitting/3.jpg" alt="knitting">
+                                        <img src="https://www.thesprucecrafts.com/thmb/q1t_Z9rf7KSP9SRLtVLNlaGYSFA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1006903856-f7202661bb354c88bedd4598cf3d7fed.jpg" alt="knitting">
+                                        <img src="https://img.freepik.com/premium-photo/mature-man-knitting-wool-with-needle-while-sitting-sofa-home-caucasian-man-smiling-making-sweater-wool-while-relaxing-home-woollen-balls-basket-table_425263-4673.jpg?w=2000" alt="knitting">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Ако искате занимание, в което можете да задълбаете, откривайки и усвоявайки нови техники, докато в същото време
+                                създавате предмети, които можете да използвате или да подарите, плетенето е сигурен избор. Дори не е нужно да търсите
+                                скъпи ресурси и инструменти. 👵
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="popup3" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Свирене на инструмент</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/athome/instruments/2.jpg" alt="instruments">
+                                        <img src="../images/athome/instruments/3.jpg" alt="instruments">
+                                        <img src="https://ichef.bbci.co.uk/images/ic/1200xn/p07zt4cw.jpg" alt="instruments">
+                                        <img src="https://images.squarespace-cdn.com/content/v1/556587d8e4b052dd15ceadff/1446599253297-1E2E3LCIIV7A07Y2CZ8I/bigstock-preteen-girl-play-violin-under-46068649.jpg?format=750w" alt="instruments">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Творческата изява винаги е приятна и полезна. Усъвършенстването на уменията ви в свиренето на даден инструмент е
+                                перфектен начин да бъдете продуктивни, без да напускате уюта на дома. Ако не смятате, че ви се отдава, може да се
+                                обърнете и към композиране.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+    </main>
+    <footer class="footer">
+        <ul class="icons">
+            <li><a href="https://www.viber.com/en/?utm_source=invite&utm_Medium=share&utm_campaign=msgtest" target="_blank">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+        <li><a href="https://www.facebook.com" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+        <li><a href="https://www.instagram.com" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="aboutus.html">За нас</a></li>
+        </ul>
+        <div class="footer-copyright">
+            <p>Made by Persiyana</p>
+        </div>
+    </footer>
+</body>
+
+</html>

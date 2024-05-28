@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Social</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../navAndFooterStyle.css">
+    <link rel="icon" href="../logo.png">
+    <script src="../script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="fullLogoDiv">
+            <a id="logocontainer" href="index.html">
+                <div class="logoDiv">
+                    <img id="logoimg" src="../logo.png" alt="logo">
+                </div>
+                <div class="logoDiv">
+                    <h3 id="logoname">HobbyIdeas</h3>
+                </div>
+            </a>
+        </div>
+        <div id="menuDiv">
+            <ul id="nav-list">
+                <li>
+                    <a class="main-nav" href="index.html">Начало</a>
+                </li>
+                <li>
+                    <a class="main-nav" href="aboutus.html">За нас</a>
+                </li>
+                <li onclick="hideOrShow()">
+                    <a class="main-nav" id="catNav">Категории</a>
+                    <ul id="catList" class="list">
+                        <li class="list-item"><a href="athome.html">Домашни</a></li>
+                        <li class="list-item"><a href="collecting.html">Колекционерски</a></li>
+                        <li class="list-item"><a href="creative.html">Креативни</a></li>
+                        <li class="list-item"><a href="diy.html">Изработка</a></li>
+                        <li class="list-item"><a href="enrichment.html">Обогатяващи</a></li>
+                        <li class="list-item"><a href="outdoors.html">На открито</a></li>
+                        <li class="list-item"><a href="social.html">Социални</a></li>
+                        <li class="list-item"><a href="sports.html">Спорт</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="row">
+            <div class="col-2">
+                <div class="container mt-3" id="items-container">
+                    <div class="d-flex flex-column mb-3" id="items">
+                        <div class="p-2" onClick="parent.location='athome.html'">Домашни</div>
+                        <div class="p-2" onClick="parent.location='collecting.html'">Колекционерски</div>
+                        <div class="p-2" onClick="parent.location='creative.html'">Креативни</div>
+                        <div class="p-2" onClick="parent.location='diy.html'">Изработка</div>
+                        <div class="p-2" onClick="parent.location='enrichment.html'">Обогатяващи</div>
+                        <div class="p-2" onClick="parent.location='outdoors.html'">На открито</div>
+                        <div class="p-2" id="currentCategory2" onClick="parent.location='social.html'">Социални</div>
+                        <div class="p-2" onClick="parent.location='sports.html'">Спорт</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-10">
+            <div class="container mt-3">
+                <h3 id="categoryNames">Социални</h3>
+            </div>
+            <div class="container mt-3">
+                <p>Това са дейности, в които вземат участие множество хора. 
+Важен елемент е взаимодействието между участниците. Тези дейности предоставят възможност за провеждане на разговори с други хора в принудена среда и формиране на връзки.</p>
+            </div>
+            <div class="row">
+                <div class="column" onclick="location.href='#popup1';">
+                    <img src="../images/social/books/1.jpg" alt="books" style="width:100%">
+                    <h2>Клуб за книги</h2>
+                </div>
+                <div class="column" onclick="location.href='#popup2';">
+                    <img src="../images/social/cooking/1.jpg" alt="cooking" style="width:100%">
+                    <h2>Уроци по готварство</h2>
+                </div>
+                <div class="column" onclick="location.href='#popup3';">
+                    <img src="../images/social/volunteering/1.jpg" alt="volunteering" style="width:100%">
+                    <h2>Доброволчество</h2>
+                </div>
+            </div>
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Клуб за книги</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/social/books/2.jpg" alt="books">
+                                        <img src="../images/social/books/3.jpg" alt="books">
+                                        <img src="https://image.cnbcfm.com/api/v1/image/104702698-GettyImages-583816330-book-club.jpg?v=1532563764" alt="books">
+                                        <img src="https://s26162.pcdn.co/wp-content/uploads/2017/08/reading-together.jpg" alt="books">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Ако имате мнения и идеи върху скоро-прочетена книга, търсите препоръки за ново четиво или просто искате да комуникирате
+                                с хора с подобни възгледи, посещаването на книжни клубове е подходящо хоби. Независимо дали сте прочели десет или хиляда
+                                литературни творби, можете да си намерите място.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="popup2" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Уроци по готварство</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="https://churchillmanor.com/wp-content/uploads/2016/10/Napa-Cooking-Classes.jpg" alt="cooking">
+                                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/vegetables-being-cut-in-cooking-class-royalty-free-image-1619040165." alt="cooking">
+                                        <img src="https://supperclubyvr.com/wp-content/uploads/2021/11/french-course-cooking-adults.jpg" alt="cooking">
+                                        <img src="https://www.tasteofhome.com/wp-content/uploads/2017/12/shutterstock_635020400.jpg?fit=680,507" alt="cooking">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                В клас по готварство ще имате шанс да подобрите кулинарните си умения, учейки се от опитни експерти, и да обменяте идеи
+                                с други ентусиасти. Освен връзките, които можете да създадете по време на обучението, можете да използвате
+                                новопридобитите си умения и знания извън тази среда като предмет на разговор.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="popup3" class="overlay">
+                <div class="popup">
+                    <a href="#"><span class="close">&times;</span></a>
+                    <div class="contentPopupBig">
+                        <div class="contentPopup">
+                            <h2>Доброволчество</h2>
+                            <div class="gallery">
+                                <div class="slideshow-container">
+                                    <div class="wrapper">
+                                        <img src="../images/social/volunteering/2.jpg" alt="volunteering">
+                                        <img src="../images/social/volunteering/3.jpg" alt="volunteering">
+                                        <img src="https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2020/10/15153848/The-Career-Benefits-of-Volunteering-During-Your-Job-Search-2.jpg" alt="volunteering">
+                                        <img src="https://cms-tc.pbskids.org/parents/articles/Tips-for-Volunteering-With-Kids.jpg" alt="volunteering">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="content">
+                                Доброволческата работа ще ви даде различна перспектива. Ще имате шанс да комуникирате с хора с подобни цели. Всичко
+                                това, докато вършите полезна за света работа, без да очаквате заплащане. За насоки можете да посетите сайта на местната
+                                си платформа за доброволчество.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        </div>
+    </main>
+    <footer class="footer">
+        <ul class="icons">
+            <li><a href="https://www.viber.com/en/?utm_source=invite&utm_Medium=share&utm_campaign=msgtest" target="_blank">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+        <li><a href="https://www.facebook.com" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+        <li><a href="https://www.instagram.com" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="aboutus.html">За нас</a></li>
+        </ul>
+        <div class="footer-copyright">
+            <p>Made by Persiyana</p>
+        </div>
+    </footer>
+</body>
+
+</html>
